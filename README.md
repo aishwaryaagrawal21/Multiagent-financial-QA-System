@@ -1,5 +1,3 @@
-# Multiagent-financial-QA-System
-
 # Finatars
 
 **A Knowledge Graph + Multi-LLM Q/A System for complex and inference-based financial questions**
