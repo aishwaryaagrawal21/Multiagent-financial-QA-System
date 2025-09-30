@@ -1,0 +1,4 @@
+{
+    "triplet_data_path": "/Users/tanya/Desktop/Capstone/finatars/data_processing/triplet_extraction/FinalData",
+    "llm_config_file": "/Users/tanya/Desktop/Capstone/finatars/finatars_pipeline/llm_config.json"
+}

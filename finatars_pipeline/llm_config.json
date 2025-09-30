@@ -1,0 +1,64 @@
+{
+    "functions": [
+        {
+            "name": "search_graph",
+            "description": "Search the entities in Knowledge Graph",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "query": {
+                        "type": "string",
+                        "description": "the question to be searched in the graph"
+                    },
+                    "beam_width": {
+                        "type": "integer",
+                        "description": "this the beam_width"
+                    },
+                    "depth": {
+                        "type": "integer",
+                        "description": "this is the depth"
+                    },
+                    "limit": {
+                        "type": "integer",
+                        "description": "this is the limit"
+                    }
+                },
+                "required": ["query"]
+            }
+        },
+        {
+            "name": "search_graph_and_web",
+            "description": "Search the entities in Knowledge Graph AND the Web",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "query": {
+                        "type": "string",
+                        "description": "the question to be searched in the graph and web"
+                    },
+                    "beam_width": {
+                        "type": "integer",
+                        "description": "this the beam_width"
+                    },
+                    "depth": {
+                        "type": "integer",
+                        "description": "this is the depth"
+                    },
+                    "limit": {
+                        "type": "integer",
+                        "description": "this is the limit"
+                    }
+                },
+                "required": ["query"]
+            }
+        }
+    ],
+    "config_list": [
+        {
+            "model": "gpt-3.5-turbo-0125",
+            "api_key": "API_KEY"
+        }
+    ],
+    "temperature": 0.3,
+    "timeout": 120
+}

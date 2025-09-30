@@ -1,0 +1,7 @@
+Metric,Multi agent without entity normalization,Multi agent with entity normalization (without web),Multi agent with entity normalization and web
+Context Precision,0.85,0.94,0.94
+Faithfulness,0.69,0.87,0.79
+Answer Relevancy,0.87,0.83,0.75
+Context Recall,0.91,0.95,0.96
+Context Entity Recall,0.22,0.36,0.35
+,,
