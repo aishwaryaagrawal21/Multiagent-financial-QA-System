@@ -1,4 +1,4 @@
-# Finatars
+# Multi-agent Financial QnA System
 
 **A Knowledge Graph + Multi-LLM Q/A System for complex and inference-based financial questions**
 
@@ -17,9 +17,9 @@
     - AUTOGEN_USE_DOCKER = 0
 
 3. If you want to run the system directly without UI, follow the below steps. Else skip this section and directly check Streamlit UI section
-   - Run *finatars_pipeine/run.py* from its directory after modifying the necessary parameters within the file (towards the end). This part is currently commented, please uncomment section **For running directly** (line 66)
+   - Run *src/run.py* from its directory after modifying the necessary parameters within the file (towards the end). This part is currently commented, please uncomment section **For running directly** (line 66)
 
-4. Explore *finatars_pipeine/experimentation.ipynb* to test capabilities and check the format of "answer" from Multi-LLM System.
+4. Explore *src/experimentation.ipynb* to test capabilities and check the format of "answer" from Multi-LLM System.
 
 #### Streamlit UI:
 1. **For running UI**, update the following paths inside *path_config.json* file 
@@ -28,4 +28,4 @@
 
 2. **Run command:** 
         
-        streamlit run finatars_pipeine/streamlit_run.py
+        streamlit run src/streamlit_run.py
